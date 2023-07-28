@@ -1,0 +1,28 @@
+.task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+
+  >div{
+    width: 100%;
+
+    >span{
+      color: rgba(0, 0, 0, 0.673);
+    }
+  }
+
+  >button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
